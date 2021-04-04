@@ -3,7 +3,7 @@ function data = loadData_V2()
 
 % Chassis params
     % Vehicle Body
-    data.chassis.m = 3;              % Vehicle mass, [kg]
+    data.chassis.m = 4.84;              % Vehicle mass, [kg]
     data.chassis.NumWhl = 2;         % Number of wheels on per axle
     data.chassis.a = 0.1755;         % Longitudinal dist from CoM to front axle, [m]
     data.chassis.b = 0.1845;         % Longitudinal dist from CoM to rear axle, [m]
@@ -34,7 +34,7 @@ function data = loadData_V2()
  
     % Road-Tire Interaction
     data.drivetrain.VertLoad = 7.308;   % Rated vertical load [N]
-    data.drivetrain.PeakLongF = 7.495;  % Peak longitudinal force [N]
+    data.drivetrain.PeakLongF = 7.376;  % Peak longitudinal force [N]
     data.drivetrain.Slip = 80;       % Slip at peak force at rated load [percent]
     data.drivetrain.VeloTrhd = 0.1;  % Velocity treshold [m/s]
 
