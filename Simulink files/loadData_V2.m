@@ -4,6 +4,12 @@ function data = loadData_V2()
 % Chassis params
     % Vehicle Body
     data.chassis.m = 4.84;              % Vehicle mass, [kg]
+    data.chassis.newMass1 = 5; 
+    data.chassis.newMass2 = 6; 
+    data.chassis.newMass3 = 7; 
+    data.chassis.newMass4 = 8; 
+    data.chassis.newMass5 = 9; 
+    data.chassis.newMass6 = 10; 
     data.chassis.NumWhl = 2;         % Number of wheels on per axle
     data.chassis.a = 0.1755;         % Longitudinal dist from CoM to front axle, [m]
     data.chassis.b = 0.1845;         % Longitudinal dist from CoM to rear axle, [m]
